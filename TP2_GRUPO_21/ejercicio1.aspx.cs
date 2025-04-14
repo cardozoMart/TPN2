@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Xml.Schema;
+
+namespace TP2_GRUPO_21
+{
+    public partial class ejercicio1 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnGenerarTabla_Click(object sender, EventArgs e)
+        {
+            int cantidad1 = 0;
+            int cantidad2 = 0;
+
+            string[] nombres = { txtbox1.Text, txtbox3.Text };
+
+            if (string.IsNullOrWhiteSpace(nombres[0]) 
+                || string.IsNullOrWhiteSpace(nombres[1]) 
+                || !int.TryParse(txtbox2.Text, out cantidad1) 
+                || cantidad1 < 0 
+                || !int.TryParse(txtbox4.Text, out cantidad2) || cantidad2 < 0)
+            {
+                litTabla.Text = "<span style='color:red'>Completá ambos nombres.</span>";
+                return;
+            }
+
+            int.TryParse(txtbox2.Text, out cantidad1);
+            int.TryParse(txtbox4.Text, out cantidad2);
+
+            int[] cantidades = { cantidad1, cantidad2 };
+
+            string tabla = "<table border='1'>";
+            int total = 0;
+
+            tabla += "<tr><th>Producto</th><th>Cantidad</th></tr>";
+            for (int i = 0; i < nombres.Length; i++)
+            {
+                tabla += $"<tr><td>{nombres[i]}</td><td>{cantidades[i]}</td></tr>";
+                total += cantidades[i];
+            }
+            tabla += $"<tr><td>Total</td><td>{total}</td></tr>";
+
+            tabla += "</table>";
+
+            litTabla.Text = tabla;
+        }
+    }
+}
