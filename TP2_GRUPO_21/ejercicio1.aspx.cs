@@ -65,6 +65,11 @@ namespace TP2_GRUPO_21
             tabla += "</table>";
 
             litTabla.Text = tabla;
+
+            txtBoxCantidad1.Text = "";
+            txtBoxCantidad2.Text = "";
+            txtBoxProducto1.Text = "";
+            txtBoxProducto2.Text = "";
         }
     }
 }
