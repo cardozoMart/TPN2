@@ -20,20 +20,34 @@ namespace TP2_GRUPO_21
             int cantidad1 = 0;
             int cantidad2 = 0;
 
-            string[] nombres = { txtbox1.Text, txtbox3.Text };
+            string[] nombres = { txtBoxProducto1.Text, txtBoxProducto2.Text };
 
-            if (string.IsNullOrWhiteSpace(nombres[0]) 
-                || string.IsNullOrWhiteSpace(nombres[1]) 
-                || !int.TryParse(txtbox2.Text, out cantidad1) 
-                || cantidad1 < 0 
-                || !int.TryParse(txtbox4.Text, out cantidad2) || cantidad2 < 0)
+            if (    string.IsNullOrWhiteSpace(nombres[0]) 
+               ||   string.IsNullOrWhiteSpace(nombres[1]) 
+               )
             {
                 litTabla.Text = "<span style='color:red'>Completá ambos nombres.</span>";
                 return;
             }
 
-            int.TryParse(txtbox2.Text, out cantidad1);
-            int.TryParse(txtbox4.Text, out cantidad2);
+            if (nombres[0].Trim().ToLower() == nombres[1].Trim().ToLower())
+            {
+                litTabla.Text = "<span style='color:red'>Los productos no pueden tener el mismo nombre.</span>";
+                return;
+            }
+
+            if (    !int.TryParse(txtBoxCantidad1.Text, out cantidad1)
+               ||   cantidad1 < 0
+               ||   !int.TryParse(txtBoxCantidad2.Text, out cantidad2)
+               ||   cantidad2 < 0
+               )
+            {
+                litTabla.Text = "<span style='color:red'>Completa las cantidades, no pueden estar vacías.</span>";
+                return;
+            }
+
+            int.TryParse(txtBoxCantidad1.Text, out cantidad1);
+            int.TryParse(txtBoxCantidad2.Text, out cantidad2);
 
             int[] cantidades = { cantidad1, cantidad2 };
 

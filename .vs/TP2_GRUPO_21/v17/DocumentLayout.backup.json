@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\natal\\Desktop\\mart\\tup\\Progra III\\Partes\\TP2_GRUPO_21\\TP2_GRUPO_21\\",
+  "WorkspaceRootPath": "D:\\UTN\\Progra3\\TPN2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|c:\\users\\natal\\desktop\\mart\\tup\\progra iii\\partes\\tp2_grupo_21\\tp2_grupo_21\\tp2_grupo_21\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|d:\\utn\\progra3\\tpn2\\tp2_grupo_21\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|solutionrelative:tp2_grupo_21\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|C:\\Users\\natal\\Desktop\\mart\\tup\\Progra III\\Partes\\TP2_GRUPO_21\\TP2_GRUPO_21\\tp2_grupo_21\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|solutionrelative:tp2_grupo_21\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|D:\\UTN\\Progra3\\TPN2\\tp2_grupo_21\\ejercicio1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|solutionrelative:tp2_grupo_21\\ejercicio1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|C:\\Users\\natal\\Desktop\\mart\\tup\\Progra III\\Partes\\TP2_GRUPO_21\\TP2_GRUPO_21\\tp2_grupo_21\\ejercicio1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|solutionrelative:tp2_grupo_21\\ejercicio1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|D:\\UTN\\Progra3\\TPN2\\tp2_grupo_21\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{98E78BE8-FEF0-4FD5-B437-C4B0E50A45F3}|TP2_GRUPO_21\\TP2_GRUPO_21.csproj|solutionrelative:tp2_grupo_21\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,38 +28,40 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ejercicio1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\natal\\Desktop\\mart\\tup\\Progra III\\Partes\\TP2_GRUPO_21\\TP2_GRUPO_21\\TP2_GRUPO_21\\ejercicio1.aspx.cs",
+              "DocumentMoniker": "D:\\UTN\\Progra3\\TPN2\\TP2_GRUPO_21\\ejercicio1.aspx.cs",
               "RelativeDocumentMoniker": "TP2_GRUPO_21\\ejercicio1.aspx.cs",
-              "ToolTip": "C:\\Users\\natal\\Desktop\\mart\\tup\\Progra III\\Partes\\TP2_GRUPO_21\\TP2_GRUPO_21\\TP2_GRUPO_21\\ejercicio1.aspx.cs",
+              "ToolTip": "D:\\UTN\\Progra3\\TPN2\\TP2_GRUPO_21\\ejercicio1.aspx.cs",
               "RelativeToolTip": "TP2_GRUPO_21\\ejercicio1.aspx.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T22:59:56.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ejercicio1.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\natal\\Desktop\\mart\\tup\\Progra III\\Partes\\TP2_GRUPO_21\\TP2_GRUPO_21\\TP2_GRUPO_21\\ejercicio1.aspx.designer.cs",
+              "DocumentMoniker": "D:\\UTN\\Progra3\\TPN2\\TP2_GRUPO_21\\ejercicio1.aspx.designer.cs",
               "RelativeDocumentMoniker": "TP2_GRUPO_21\\ejercicio1.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\natal\\Desktop\\mart\\tup\\Progra III\\Partes\\TP2_GRUPO_21\\TP2_GRUPO_21\\TP2_GRUPO_21\\ejercicio1.aspx.designer.cs",
+              "ToolTip": "D:\\UTN\\Progra3\\TPN2\\TP2_GRUPO_21\\ejercicio1.aspx.designer.cs",
               "RelativeToolTip": "TP2_GRUPO_21\\ejercicio1.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwv2IAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T22:59:54.068Z"
+              "WhenOpened": "2025-04-13T22:59:54.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ejercicio1.aspx",
-              "DocumentMoniker": "C:\\Users\\natal\\Desktop\\mart\\tup\\Progra III\\Partes\\TP2_GRUPO_21\\TP2_GRUPO_21\\TP2_GRUPO_21\\ejercicio1.aspx",
+              "DocumentMoniker": "D:\\UTN\\Progra3\\TPN2\\TP2_GRUPO_21\\ejercicio1.aspx",
               "RelativeDocumentMoniker": "TP2_GRUPO_21\\ejercicio1.aspx",
-              "ToolTip": "C:\\Users\\natal\\Desktop\\mart\\tup\\Progra III\\Partes\\TP2_GRUPO_21\\TP2_GRUPO_21\\TP2_GRUPO_21\\ejercicio1.aspx",
+              "ToolTip": "D:\\UTN\\Progra3\\TPN2\\TP2_GRUPO_21\\ejercicio1.aspx",
               "RelativeToolTip": "TP2_GRUPO_21\\ejercicio1.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-13T22:17:14.971Z"
+              "WhenOpened": "2025-04-13T22:17:14.971Z",
+              "EditorCaption": ""
             }
           ]
         }

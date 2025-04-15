@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ejercicio1.aspx.cs" Inherits="TP2_GRUPO_21.ejercicio1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ejercicio1.aspx.cs" Inherits="TP2_GRUPO_21.ejercicio1" UnobtrusiveValidationMode="None"%>
 
 <!DOCTYPE html>
 
@@ -11,7 +11,7 @@
             width: 100%;
         }
         .auto-style2 {
-            width: 460px;
+            width: 327px;
         }
     </style>
 </head>
@@ -21,18 +21,36 @@
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style2">Ingresar nombre del producto:
-                        <asp:TextBox ID="txtbox1" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtBoxProducto1" runat="server"></asp:TextBox>
                     </td>
                     <td>Cantidad:
-                        <asp:TextBox ID="txtbox2" runat="server" TextMode="Number"></asp:TextBox>
+                        <asp:TextBox ID="txtBoxCantidad1" runat="server" TextMode="Number"></asp:TextBox>
+                        <asp:RangeValidator ID="RangeValidator1" runat="server"
+                            ControlToValidate="txtBoxCantidad1"
+                            MinimumValue="0"
+                            MaximumValue="1000000"
+                            Type="Integer"
+                            ErrorMessage="Ingrese valores positivos"
+                            ForeColor="Red"
+                            Display="Dynamic"
+                        ></asp:RangeValidator>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">Ingresar nombre del producto:
-                        <asp:TextBox ID="txtbox3" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtBoxProducto2" runat="server"></asp:TextBox>
                     </td>
                     <td>Cantidad:
-                        <asp:TextBox ID="txtbox4" runat="server" TextMode="Number"></asp:TextBox>
+                        <asp:TextBox ID="txtBoxCantidad2" runat="server" TextMode="Number"></asp:TextBox>
+                        <asp:RangeValidator ID="RangeValidator2" runat="server"
+                            ControlToValidate="txtBoxCantidad2"
+                            MinimumValue="0"
+                            MaximumValue="1000000"
+                            Type="Integer"
+                            ErrorMessage="Ingrese valores positivos"
+                            ForeColor="Red"
+                            Display="Dynamic"
+                        ></asp:RangeValidator>
                     </td>
                 </tr>
                 <tr>
